@@ -1,4 +1,4 @@
-# MIT-SDP-Robots-Seminar
+# MIT-SDP-Robotics-Seminar
 
 At the Massachusetts Institute of Technology, we run the SDP Robotics Seminar, which features a mix of reading groups, presentations, and talks by authors of recent or impactful papers. This repository contains a list of papers we have reviewed or authors we've hosted.
 
