@@ -17,7 +17,7 @@ Text
   [📄 Paper]() |  [🌐 Project Page]() | [💻 Code]() -->
 
 
-## 2025-09-12:
+## 2025-09-26:
 
 ### Regularization Methods for SDP Relaxations in Large-Scale Polynomial Optimization
 **Author(s)**: Jiawang Nie, Li Wang
