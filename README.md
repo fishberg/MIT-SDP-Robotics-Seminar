@@ -16,6 +16,14 @@ Text
 
   [📄 Paper]() |  [🌐 Project Page]() | [💻 Code]() -->
 
+## 2025-10-17
+
+### (In Progress) Lorenzo's ongoing work on Pose Uncertainty Bounds
+**Author(s)**: Lorenzo Shaikewitz
+<details span>
+<summary><b>Abstract</b></summary>
+TBD
+</details>
 
 ## 2025-09-26:
 
