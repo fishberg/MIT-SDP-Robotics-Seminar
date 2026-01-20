@@ -16,13 +16,24 @@ Text
 
   [📄 Paper]() |  [🌐 Project Page]() | [💻 Code]() -->
 
-## 2025-10-17
+## 2025-11-21:
 
-### (In Progress) Lorenzo's ongoing work on Pose Uncertainty Bounds
-**Author(s)**: Lorenzo Shaikewitz
+### Sampling-Based Global Optimal Control and Estimation via Semidefinite Programming
+**Author(s)**: Antoine Groudiev, Fabian Schramm, Éloïse Berthier , Justin Carpentier, and Frederike Dümbgen
 <details span>
 <summary><b>Abstract</b></summary>
-TBD
+Global optimization has gained attraction over the past decades, thanks to the development of both theoretical foundations and efficient numerical routines. Among recent advances, Kernel Sum of Squares (KernelSOS) provides a powerful theoretical framework, combining the expressivity of kernel methods with the guarantees of SOS optimization. In this paper, we take KernelSOS from theory to practice and demonstrate its use on challenging control and robotics problems. We identify and address the practical considerations required to make the method work in applied settings: restarting strategies, systematic calibration of hyperparameters, methods for recovering minimizers, and the combination with fast local solvers. As a proof of concept, the application of KernelSOS to robot localization highlights its competitiveness with existing SOS approaches that rely on heuristics and handcrafted reformulations to render the problem polynomial. Even in the highdimensional, non-parametric setting of trajectory optimization with simulators treated as black boxes, we demonstrate how KernelSOS can be combined with fast local solvers to uncover higher-quality solutions without compromising overall runtimes.
+</details>
+
+  [📄 Paper](https://arxiv.org/pdf/2507.17572)
+
+## 2025-10-17
+
+### Uncertainty Quantification for Visual Object Pose Estimation
+**Author(s)**: Lorenzo Shaikewitz, Charis Georgiou, Luca Carlone
+<details span>
+<summary><b>Abstract</b></summary>
+Quantifying the uncertainty of an object’s pose estimate is essential for robust control and planning. Although pose estimation is a well-studied robotics problem, attaching statistically rigorous uncertainty is not well understood without strict distributional assumptions. We develop distribution-free pose uncertainty bounds about a given pose estimate in the monocular setting. Our pose uncertainty only requires high probability noise bounds on pixel detections of 2D semantic keypoints on a known object. This noise model induces an implicit, non-convex set of pose uncertainty constraints. Our key contribution is SLUE (S-Lemma Uncertainty Estimation), a convex program to reduce this set to a single ellipsoidal uncertainty bound that is guaranteed to contain the true object pose with high probability. SLUE solves a relaxation of the minimum volume bounding ellipsoid problem inspired by the celebrated S-lemma. It requires no initial guess of the bound’s shape or size and is guaranteed to contain the true object pose with high probability. For tighter uncertainty bounds at the same confidence, we extend SLUE to a sum-of-squares relaxation hierarchy which is guaranteed to converge to the minimum volume ellipsoidal uncertainty bound for a given set of keypoint constraints. We show this pose uncertainty bound can easily be projected to independent translation and axis-angle orientation bounds. We evaluate SLUE on two pose estimation datasets and a realworld drone tracking scenario. Compared to prior work, SLUE generates substantially smaller translation bounds and competitive orientation bounds. We release code at https://github.com/MIT-SPARK/PoseUncertaintySets.
 </details>
 
 ## 2025-09-26:
